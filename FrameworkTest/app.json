@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Bandify",
-    "slug": "bandify-leroygabrielse",
+    "name": "FrameWorkTest",
+    "slug": "FrameworkTest",
     "platforms": [
       "ios",
       "android",

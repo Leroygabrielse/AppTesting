@@ -43,8 +43,8 @@ export default class App extends React.Component {
       </AuthStack.Navigator>
       ) : (
       <HomeStack.Navigator>
-        <Stack.Screen name="Main Menu" component={MainMenu} />
-        <Stack.Screen name="Home" component={HomeScreenStack} />
+        <HomeStack.Screen name="Main Menu" component={MainMenu} />
+        <HomeStack.Screen name="Home" component={HomeScreenStack} />
       </HomeStack.Navigator>
       )}
     </NavigationContainer>

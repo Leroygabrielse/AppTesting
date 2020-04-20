@@ -32,7 +32,7 @@ export default class LoginScreen extends React.Component {
       <View style={styles.container}>
         <View style={styles.logoImageContainer}>
           <Image
-            source={require("./../assets/logo.png")}
+            source={require("./../assets/Logo.png")}
             style={styles.logoImage}
           />
         </View>
@@ -44,7 +44,7 @@ export default class LoginScreen extends React.Component {
             onSubmitEditing={() => this.passref.current.focus()}
             onChangeText={(email) => this.setState({ email })}
             placeholderTextColor='#E3E3E3'
-            placeholder="Enter email"
+            placeholder="Enter email = test@gmail.com"
             style={styles.inputs}
           />
           <TextInput
@@ -52,7 +52,7 @@ export default class LoginScreen extends React.Component {
             ref={this.passref}
             onChangeText={(password) => this.setState({ password })}
             placeholderTextColor='#E3E3E3'
-            placeholder="Enter password"
+            placeholder="Enter password = 1234567890"
             style={styles.inputs}
           />
           <TouchableOpacity
