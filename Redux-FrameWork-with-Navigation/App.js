@@ -1,11 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import StackNavigator from './src/navigation/mainStack'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Provider and StackNavigator</Text>
-    </View>
+    <StackNavigator />
   );
 }
 
